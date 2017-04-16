@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
+#import <AVOSCloud.h>
+
 
 @interface AppDelegate ()
 
@@ -17,6 +20,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    HomeViewController *homeViewController = [[HomeViewController alloc] init];
+    UINavigationController *mainNavigationController = [[UINavigationController alloc] initWithRootViewController:homeViewController];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = mainNavigationController;
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    //leancloud
+    //[AVOSCloudCrashReporting enable];
+    [AVOSCloud setApplicationId:@"8tRgIg3Cv6cgsUfhoIpupQ5h-gzGzoHsz" clientKey:@"gNX4PC4hFoG2I3UdSTftpkJ3"];
+    [AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     return YES;
 }
 

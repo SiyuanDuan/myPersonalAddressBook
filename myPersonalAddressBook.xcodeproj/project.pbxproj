@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2F74A361E9FDBA900C09C78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F74A351E9FDBA900C09C78 /* main.m */; };
-		A2F74A391E9FDBA900C09C78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F74A381E9FDBA900C09C78 /* AppDelegate.m */; };
-		A2F74A3C1E9FDBA900C09C78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F74A3B1E9FDBA900C09C78 /* ViewController.m */; };
-		A2F74A3F1E9FDBA900C09C78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F74A3D1E9FDBA900C09C78 /* Main.storyboard */; };
-		A2F74A411E9FDBA900C09C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F74A401E9FDBA900C09C78 /* Assets.xcassets */; };
-		A2F74A441E9FDBA900C09C78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F74A421E9FDBA900C09C78 /* LaunchScreen.storyboard */; };
 		A2F74A4F1E9FDBA900C09C78 /* myPersonalAddressBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F74A4E1E9FDBA900C09C78 /* myPersonalAddressBookTests.m */; };
 		A2F74A5A1E9FDBA900C09C78 /* myPersonalAddressBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F74A591E9FDBA900C09C78 /* myPersonalAddressBookUITests.m */; };
+		A2F74A821E9FE21E00C09C78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F74A711E9FE21E00C09C78 /* AppDelegate.m */; };
+		A2F74A831E9FE21E00C09C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F74A721E9FE21E00C09C78 /* Assets.xcassets */; };
+		A2F74A841E9FE21E00C09C78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F74A731E9FE21E00C09C78 /* LaunchScreen.storyboard */; };
+		A2F74A851E9FE21E00C09C78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F74A751E9FE21E00C09C78 /* Main.storyboard */; };
+		A2F74A861E9FE21E00C09C78 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F74A7A1E9FE21E00C09C78 /* HomeViewController.m */; };
+		A2F74A871E9FE21E00C09C78 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F74A7D1E9FE21E00C09C78 /* Person.m */; };
+		A2F74A881E9FE21E00C09C78 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2F74A7E1E9FE21E00C09C78 /* Info.plist */; };
+		A2F74A891E9FE21E00C09C78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F74A7F1E9FE21E00C09C78 /* main.m */; };
+		A2F74A8A1E9FE21E00C09C78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F74A811E9FE21E00C09C78 /* ViewController.m */; };
+		A2F74A8F1E9FE27D00C09C78 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F74A8E1E9FE27D00C09C78 /* EditViewController.m */; };
+		A2F74A951E9FE30000C09C78 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F74A941E9FE30000C09C78 /* Contact.m */; };
+		A2F74A981E9FE32100C09C78 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F74A971E9FE32100C09C78 /* AddViewController.m */; };
+		A2F74A9E1E9FE3C000C09C78 /* ContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F74A9D1E9FE3C000C09C78 /* ContactCell.m */; };
+		A2F74AA11E9FE41600C09C78 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F74AA01E9FE41600C09C78 /* ContactsViewController.m */; };
+		DF47F404DCB6D7C218EE3EF8 /* libPods-myPersonalAddressBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF25522BB6B16C4848DF6482 /* libPods-myPersonalAddressBook.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +44,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		012804CF439E0AEE1C21EC4C /* Pods-myPersonalAddressBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPersonalAddressBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myPersonalAddressBook/Pods-myPersonalAddressBook.debug.xcconfig"; sourceTree = "<group>"; };
+		9A1E24B64A3C08652AFD93F6 /* Pods-myPersonalAddressBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPersonalAddressBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-myPersonalAddressBook/Pods-myPersonalAddressBook.release.xcconfig"; sourceTree = "<group>"; };
 		A2F74A311E9FDBA900C09C78 /* myPersonalAddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myPersonalAddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2F74A351E9FDBA900C09C78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A2F74A371E9FDBA900C09C78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A2F74A381E9FDBA900C09C78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A2F74A3A1E9FDBA900C09C78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A2F74A3B1E9FDBA900C09C78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A2F74A3E1E9FDBA900C09C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A2F74A401E9FDBA900C09C78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A2F74A431E9FDBA900C09C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A2F74A451E9FDBA900C09C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2F74A4A1E9FDBA900C09C78 /* myPersonalAddressBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myPersonalAddressBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F74A4E1E9FDBA900C09C78 /* myPersonalAddressBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myPersonalAddressBookTests.m; sourceTree = "<group>"; };
 		A2F74A501E9FDBA900C09C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2F74A551E9FDBA900C09C78 /* myPersonalAddressBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myPersonalAddressBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F74A591E9FDBA900C09C78 /* myPersonalAddressBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myPersonalAddressBookUITests.m; sourceTree = "<group>"; };
 		A2F74A5B1E9FDBA900C09C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F74A701E9FE21E00C09C78 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2F74A711E9FE21E00C09C78 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2F74A721E9FE21E00C09C78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2F74A741E9FE21E00C09C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2F74A761E9FE21E00C09C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2F74A791E9FE21E00C09C78 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A2F74A7A1E9FE21E00C09C78 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A2F74A7C1E9FE21E00C09C78 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A2F74A7D1E9FE21E00C09C78 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A2F74A7E1E9FE21E00C09C78 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F74A7F1E9FE21E00C09C78 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2F74A801E9FE21E00C09C78 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2F74A811E9FE21E00C09C78 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2F74A8D1E9FE27D00C09C78 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		A2F74A8E1E9FE27D00C09C78 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		A2F74A931E9FE30000C09C78 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		A2F74A941E9FE30000C09C78 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		A2F74A961E9FE32100C09C78 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		A2F74A971E9FE32100C09C78 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		A2F74A9C1E9FE3C000C09C78 /* ContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCell.h; sourceTree = "<group>"; };
+		A2F74A9D1E9FE3C000C09C78 /* ContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCell.m; sourceTree = "<group>"; };
+		A2F74A9F1E9FE41600C09C78 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		A2F74AA01E9FE41600C09C78 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		BF25522BB6B16C4848DF6482 /* libPods-myPersonalAddressBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myPersonalAddressBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF47F404DCB6D7C218EE3EF8 /* libPods-myPersonalAddressBook.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +108,12 @@
 		A2F74A281E9FDBA900C09C78 = {
 			isa = PBXGroup;
 			children = (
-				A2F74A331E9FDBA900C09C78 /* myPersonalAddressBook */,
+				A2F74A6F1E9FE21E00C09C78 /* myPersonalAddressBook */,
 				A2F74A4D1E9FDBA900C09C78 /* myPersonalAddressBookTests */,
 				A2F74A581E9FDBA900C09C78 /* myPersonalAddressBookUITests */,
 				A2F74A321E9FDBA900C09C78 /* Products */,
+				EFC996934C2998D31434E150 /* Pods */,
+				A957161FE58D843CFF1A6489 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,30 +125,6 @@
 				A2F74A551E9FDBA900C09C78 /* myPersonalAddressBookUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A2F74A331E9FDBA900C09C78 /* myPersonalAddressBook */ = {
-			isa = PBXGroup;
-			children = (
-				A2F74A371E9FDBA900C09C78 /* AppDelegate.h */,
-				A2F74A381E9FDBA900C09C78 /* AppDelegate.m */,
-				A2F74A3A1E9FDBA900C09C78 /* ViewController.h */,
-				A2F74A3B1E9FDBA900C09C78 /* ViewController.m */,
-				A2F74A3D1E9FDBA900C09C78 /* Main.storyboard */,
-				A2F74A401E9FDBA900C09C78 /* Assets.xcassets */,
-				A2F74A421E9FDBA900C09C78 /* LaunchScreen.storyboard */,
-				A2F74A451E9FDBA900C09C78 /* Info.plist */,
-				A2F74A341E9FDBA900C09C78 /* Supporting Files */,
-			);
-			path = myPersonalAddressBook;
-			sourceTree = "<group>";
-		};
-		A2F74A341E9FDBA900C09C78 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A2F74A351E9FDBA900C09C78 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		A2F74A4D1E9FDBA900C09C78 /* myPersonalAddressBookTests */ = {
@@ -140,6 +145,141 @@
 			path = myPersonalAddressBookUITests;
 			sourceTree = "<group>";
 		};
+		A2F74A6F1E9FE21E00C09C78 /* myPersonalAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				A2F74A991E9FE33000C09C78 /* Contacts */,
+				A2F74A901E9FE2C700C09C78 /* Add */,
+				A2F74A8B1E9FE24200C09C78 /* Edit */,
+				A2F74A771E9FE21E00C09C78 /* Home */,
+				A2F74A701E9FE21E00C09C78 /* AppDelegate.h */,
+				A2F74A711E9FE21E00C09C78 /* AppDelegate.m */,
+				A2F74A721E9FE21E00C09C78 /* Assets.xcassets */,
+				A2F74A731E9FE21E00C09C78 /* LaunchScreen.storyboard */,
+				A2F74A751E9FE21E00C09C78 /* Main.storyboard */,
+				A2F74A7E1E9FE21E00C09C78 /* Info.plist */,
+				A2F74A7F1E9FE21E00C09C78 /* main.m */,
+				A2F74A801E9FE21E00C09C78 /* ViewController.h */,
+				A2F74A811E9FE21E00C09C78 /* ViewController.m */,
+			);
+			path = myPersonalAddressBook;
+			sourceTree = "<group>";
+		};
+		A2F74A771E9FE21E00C09C78 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A2F74A781E9FE21E00C09C78 /* Controller */,
+				A2F74A7B1E9FE21E00C09C78 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A2F74A781E9FE21E00C09C78 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2F74A791E9FE21E00C09C78 /* HomeViewController.h */,
+				A2F74A7A1E9FE21E00C09C78 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2F74A7B1E9FE21E00C09C78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2F74A7C1E9FE21E00C09C78 /* Person.h */,
+				A2F74A7D1E9FE21E00C09C78 /* Person.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2F74A8B1E9FE24200C09C78 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				A2F74A8C1E9FE24E00C09C78 /* Controller */,
+			);
+			name = Edit;
+			sourceTree = "<group>";
+		};
+		A2F74A8C1E9FE24E00C09C78 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2F74A8D1E9FE27D00C09C78 /* EditViewController.h */,
+				A2F74A8E1E9FE27D00C09C78 /* EditViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A2F74A901E9FE2C700C09C78 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				A2F74A921E9FE2DA00C09C78 /* Model */,
+				A2F74A911E9FE2D000C09C78 /* Controller */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		A2F74A911E9FE2D000C09C78 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2F74A961E9FE32100C09C78 /* AddViewController.h */,
+				A2F74A971E9FE32100C09C78 /* AddViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A2F74A921E9FE2DA00C09C78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2F74A931E9FE30000C09C78 /* Contact.h */,
+				A2F74A941E9FE30000C09C78 /* Contact.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A2F74A991E9FE33000C09C78 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				A2F74A9B1E9FE34000C09C78 /* Controller */,
+				A2F74A9A1E9FE33A00C09C78 /* View */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		A2F74A9A1E9FE33A00C09C78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2F74A9C1E9FE3C000C09C78 /* ContactCell.h */,
+				A2F74A9D1E9FE3C000C09C78 /* ContactCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A2F74A9B1E9FE34000C09C78 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2F74A9F1E9FE41600C09C78 /* ContactsViewController.h */,
+				A2F74AA01E9FE41600C09C78 /* ContactsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A957161FE58D843CFF1A6489 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF25522BB6B16C4848DF6482 /* libPods-myPersonalAddressBook.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFC996934C2998D31434E150 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				012804CF439E0AEE1C21EC4C /* Pods-myPersonalAddressBook.debug.xcconfig */,
+				9A1E24B64A3C08652AFD93F6 /* Pods-myPersonalAddressBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2F74A5E1E9FDBA900C09C78 /* Build configuration list for PBXNativeTarget "myPersonalAddressBook" */;
 			buildPhases = (
+				C9B68F2344D8C6A8A57B9361 /* [CP] Check Pods Manifest.lock */,
 				A2F74A2D1E9FDBA900C09C78 /* Sources */,
 				A2F74A2E1E9FDBA900C09C78 /* Frameworks */,
 				A2F74A2F1E9FDBA900C09C78 /* Resources */,
+				E900859FED4762081D9BDEF5 /* [CP] Embed Pods Frameworks */,
+				87D505640DE09BC179C33C07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +389,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2F74A441E9FDBA900C09C78 /* LaunchScreen.storyboard in Resources */,
-				A2F74A411E9FDBA900C09C78 /* Assets.xcassets in Resources */,
-				A2F74A3F1E9FDBA900C09C78 /* Main.storyboard in Resources */,
+				A2F74A881E9FE21E00C09C78 /* Info.plist in Resources */,
+				A2F74A851E9FE21E00C09C78 /* Main.storyboard in Resources */,
+				A2F74A831E9FE21E00C09C78 /* Assets.xcassets in Resources */,
+				A2F74A841E9FE21E00C09C78 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +412,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		87D505640DE09BC179C33C07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myPersonalAddressBook/Pods-myPersonalAddressBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9B68F2344D8C6A8A57B9361 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E900859FED4762081D9BDEF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myPersonalAddressBook/Pods-myPersonalAddressBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A2F74A2D1E9FDBA900C09C78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2F74A3C1E9FDBA900C09C78 /* ViewController.m in Sources */,
-				A2F74A391E9FDBA900C09C78 /* AppDelegate.m in Sources */,
-				A2F74A361E9FDBA900C09C78 /* main.m in Sources */,
+				A2F74A871E9FE21E00C09C78 /* Person.m in Sources */,
+				A2F74A821E9FE21E00C09C78 /* AppDelegate.m in Sources */,
+				A2F74A891E9FE21E00C09C78 /* main.m in Sources */,
+				A2F74A9E1E9FE3C000C09C78 /* ContactCell.m in Sources */,
+				A2F74A861E9FE21E00C09C78 /* HomeViewController.m in Sources */,
+				A2F74A951E9FE30000C09C78 /* Contact.m in Sources */,
+				A2F74A8F1E9FE27D00C09C78 /* EditViewController.m in Sources */,
+				A2F74AA11E9FE41600C09C78 /* ContactsViewController.m in Sources */,
+				A2F74A981E9FE32100C09C78 /* AddViewController.m in Sources */,
+				A2F74A8A1E9FE21E00C09C78 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,20 +510,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A2F74A3D1E9FDBA900C09C78 /* Main.storyboard */ = {
+		A2F74A731E9FE21E00C09C78 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A2F74A3E1E9FDBA900C09C78 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A2F74A421E9FDBA900C09C78 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2F74A431E9FDBA900C09C78 /* Base */,
+				A2F74A741E9FE21E00C09C78 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A2F74A751E9FE21E00C09C78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F74A761E9FE21E00C09C78 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -424,6 +623,7 @@
 		};
 		A2F74A5F1E9FDBA900C09C78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 012804CF439E0AEE1C21EC4C /* Pods-myPersonalAddressBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myPersonalAddressBook/Info.plist;
@@ -435,6 +635,7 @@
 		};
 		A2F74A601E9FDBA900C09C78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1E24B64A3C08652AFD93F6 /* Pods-myPersonalAddressBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myPersonalAddressBook/Info.plist;
@@ -509,6 +710,7 @@
 				A2F74A601E9FDBA900C09C78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2F74A611E9FDBA900C09C78 /* Build configuration list for PBXNativeTarget "myPersonalAddressBookTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +719,7 @@
 				A2F74A631E9FDBA900C09C78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2F74A641E9FDBA900C09C78 /* Build configuration list for PBXNativeTarget "myPersonalAddressBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +728,7 @@
 				A2F74A661E9FDBA900C09C78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
